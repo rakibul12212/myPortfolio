@@ -31,11 +31,11 @@ const Navbar = () => {
     setOpen(false);
   };
   return (
-    <div className="bg-black">
-      <div className=" container mx-auto">
+    <div className="bg">
+      <div className=" container border-2 border-red-500 mx-auto">
         <header className="text-white  flex justify-between items-center  sticky top-0">
           <div className="flex items-center ">
-            <h1 className="text-6xl font-bold font-semibold text-black bg-green-400 px-8 py-3">
+            <h1 className="text-6xl font-extrabold font-semibold text-black bg-green-400 px-8 py-3">
               R
             </h1>
             <h1 className="text-3xl ps-2">Rakib</h1>

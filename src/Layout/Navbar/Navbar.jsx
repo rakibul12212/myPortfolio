@@ -38,7 +38,7 @@ const Navbar = () => {
             <h1 className="text-6xl font-extrabold font-semibold text-black bg-green-400 px-8 py-3">
               R
             </h1>
-            <h1 className="text-3xl ps-2">Rakib</h1>
+            <h1 className="text-3xl ps-4">Rakib</h1>
           </div>
           <nav className="flex space-x-5 px-20 ">
             <a

@@ -41,7 +41,7 @@ const About = () => {
             </a>
           </button>
         </div>
-        <div className="bg-emerald-400 relative lg:w-1/2">
+        <div id="about-img" className="bg-emerald-400 relative lg:w-1/2">
           <img
             src="https://i.ibb.co/C0whtzK/photo-2023-12-28-06-35-45-removebg-preview-1-1.png"
             alt=""

@@ -5,6 +5,7 @@ import ErrorPage from "../Pages/ErrorPage/ErrorPage";
 import Home from "../Pages/Home/Home";
 import Navbar from "../Layout/Navbar/Navbar";
 import Footer from "../Layout/Footer/Footer";
+import About from "../Pages/About/About";
 
 const router = createBrowserRouter([
   {
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
       {
         path: "/footer",
         element: <Footer></Footer>,
+      },
+      {
+        path: "/about",
+        element: <About></About>,
       },
     ],
   },

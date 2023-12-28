@@ -35,7 +35,7 @@ const Navbar = () => {
       <div className=" container border-2 border-red-500 mx-auto">
         <header className="text-white  flex justify-between items-center  sticky top-0">
           <div className="flex items-center ">
-            <h1 className="text-6xl font-extrabold font-semibold text-black bg-green-400 px-8 py-3">
+            <h1 className="text-6xl font-extrabold font-semibold text-black bg-emerald-400 px-8 py-3">
               R
             </h1>
             <h1 className="text-3xl ps-4">Rakib</h1>
@@ -43,13 +43,13 @@ const Navbar = () => {
           <nav className="flex space-x-5 px-20 ">
             <a
               className="p-2 text-text-white text-large font-semibold hover:text-green-400 "
-              href="/ABOUT"
+              href="/"
             >
               HOME
             </a>
             <a
               className="p-2 text-text-white text-large font-semibold hover:text-green-400 "
-              href="/ABOUT"
+              href="/about"
             >
               ABOUT
             </a>
@@ -85,7 +85,7 @@ const Navbar = () => {
           </nav>
           <Button
             onClick={showDrawer}
-            className="bg-green-400 py-10 px-6 rounded-none flex items-center"
+            className="bg-emerald-400 py-10 px-6 rounded-none flex items-center"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -93,7 +93,7 @@ const Navbar = () => {
               viewBox="0 0 24 24"
               stroke-width="2"
               stroke="currentColor"
-              className="w-10 h-10 "
+              className="w-10 h-10"
             >
               <path
                 strokeLinecap="round"
@@ -110,8 +110,8 @@ const Navbar = () => {
             style={{ backgroundColor: "gray" }}
           >
             <div>
-              <p className="font-bold text-xl">ABOUT US</p>
-              <p className="textlarge py-5">
+              <p className="font-bold text-xl text-gray-800">ABOUT ME</p>
+              <p className="text-large py-5 text-gray-300">
                 I’m a Frontend Web Developer(MERN).I complete my B. Sc degree
                 from Daffodil Internation University dept. CSE. I have been
                 learning web development for a year & still learning. As aMERN
@@ -121,32 +121,34 @@ const Navbar = () => {
               </p>
             </div>
             <div>
-              <p className="font-bold text-xl">GET IN TOUCH</p>
+              <p className="font-bold text-xl py-5 text-gray-800">
+                GET IN TOUCH
+              </p>
               <form id="contactForm">
                 <div className="py-2">
                   <input
                     type="text"
                     placeholder="Name"
-                    className="w-full h-5 p-5 bg-transparent border-2  border-green-500 rounded"
+                    className="w-full h-5 p-5 bg-transparent border-2  border-emerald-500"
                   />
                 </div>
                 <div className="">
                   <input
                     type="email"
                     placeholder="email"
-                    className="w-full h-5 p-5 bg-transparent border-2  border-green-500 rounded"
+                    className="w-full h-5 p-5 bg-transparent border-2  border-emerald-500"
                   />
                 </div>
                 <div className="py-2">
                   <input
-                    type="text"
-                    //   placeholder="massage"
-                    className="w-full h-36 p-5 bg-transparent border-2  border-green-500 rounded"
+                    type="textarea"
+                    placeholder="massage"
+                    className="w-full h-36 pb-20 pl-5 bg-transparent border-2  border-emerald-500"
                   />
                 </div>
               </form>
-              <button className="p-3 px-16 bg-green-500  hover:bg-gray-300 hover:text-white rounded text-xl">
-                button
+              <button className="p-3 px-16 bg-emerald-500  hover:bg-emerald-500 hover:text-white ">
+                Submit now
               </button>
             </div>
           </Drawer>

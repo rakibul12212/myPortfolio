@@ -101,7 +101,10 @@ const Banner = () => {
             </p>
           </div>
 
-          <button id="btn" className="bg-green-400 px-5 py-4 ">
+          <button
+            id="btn"
+            className="bg-emerald-400 hover:bg-emerald-500 hover:bg-emerald-500 px-5 py-4 "
+          >
             <a href="#" className="flex justify-between">
               <span>Download CV</span>
               <svg

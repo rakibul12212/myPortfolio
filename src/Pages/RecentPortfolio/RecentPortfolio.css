@@ -42,10 +42,6 @@ body {
 /* Responsive styles for XL devices */
 
 @media screen and (min-width: 1200px) {
-  body {
-    font-size: 18px;
-  }
-
   .card {
     width: 500px;
     height: 600px;

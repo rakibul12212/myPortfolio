@@ -3,7 +3,7 @@ import "./RecentPortfolio.css";
 const RecentPortfolio = () => {
   return (
     <div className="bg-black">
-      <div className="container mx-auto border-2 border-red-500 py-20">
+      <div className="container mx-auto py-20">
         <div className="text-white ">
           <p className=" xl:text-3xl text-emerald-400 text-xl font-bold pb-5">
             MY RECENT PORTFOLIO

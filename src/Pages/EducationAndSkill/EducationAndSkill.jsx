@@ -4,13 +4,15 @@ import "./EducationAndSkill.css";
 const EducationAndSkill = () => {
   return (
     <div className="bg-black text-white">
-      <div className="container mx-auto border-2 border-red-500 py-10">
+      <div className="container mx-auto py-10">
         <div className="text-white text-center">
           <p className="xl:text-3xl text-emerald-400 text-xl font-bold pb-5">
             EDUCATION & SKILL
           </p>
+          <p className="text-4xl font-bold ">Showcasing your talent</p>
+          <p className="text-4xl font-bold">amplifying your impact</p>
         </div>
-        <div className="grid md:grid-cols-2 gap-8 xl:gap-16 py-10">
+        <div className="grid md:grid-cols-2 gap-8 xl:gap-16 py-20">
           <div className="w-full ">
             <button className="border border-emerald-400  px-4 py-3 ">
               <span className="teext-emerald-400">Science 2022</span>
@@ -62,7 +64,7 @@ const EducationAndSkill = () => {
             </p>
           </div>
         </div>
-        {/* /////// */}
+
         <div className="py-20">
           <div className="skill grid grid-cols-2 gap-4">
             <div className="pb-5">
@@ -87,6 +89,12 @@ const EducationAndSkill = () => {
               <p className="bg-gray-900 p-3">REACT</p>
               <span className="bar">
                 <span className="react"></span>
+              </span>
+            </div>
+            <div className="pb-5">
+              <p className="bg-gray-900 p-3">TYPESCRIPT</p>
+              <span className="bar">
+                <span className="typescript"></span>
               </span>
             </div>
             <div className="pb-5">

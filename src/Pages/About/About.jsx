@@ -3,7 +3,7 @@ import React from "react";
 const About = () => {
   return (
     <div className="bg-black">
-      <div className="container mx-auto space-x-10 border-2 border-red-500 py-10 lg:py-20 flex flex-col lg:flex-row justify-between items-center">
+      <div className="container mx-auto space-x-10 py-10 lg:py-20 flex flex-col lg:flex-row justify-between items-center">
         <div className="text-white lg:w-1/2">
           <p className="xl:text-3xl text-emerald-400 text-xl font-bold pb-5">
             ABOUT ME
@@ -45,7 +45,7 @@ const About = () => {
           <img
             src="https://i.ibb.co/C0whtzK/photo-2023-12-28-06-35-45-removebg-preview-1-1.png"
             alt=""
-            className="w-full lg:mt-2 lg:mr-2 relative lg:top-4 lg:right-4"
+            className="w-full lg:mt-2 lg:mr-2 relative lg:top-6 lg:right-6"
           />
         </div>
       </div>

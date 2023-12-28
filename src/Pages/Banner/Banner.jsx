@@ -64,8 +64,8 @@ const Banner = () => {
     // </div>
 
     <div className="bg">
-      <div className="container xl:ps-20 xl:pb-20 mx-auto border-2 border-red-500 flex flex-col-reverse sm:flex-row xl:space-x-40 lg:space-x-40 pt-10 sm:pt-100">
-        <div id="right-container" className="md:my-auto sm:w-1/3">
+      <div className="container xl:ps-20 xl:pb-20 mx-auto flex flex-col-reverse sm:flex-row xl:space-x-40 lg:space-x-40 pt-10 sm:pt-100">
+        <div id="right-container" className="md:my-auto sm:w-1/3 ">
           <div className="relative flex justify-center items-center">
             <img
               src="https://wp.shsarker.xyz/zyan/wp-content/themes/zyan/assets/img/shapes/banner_shape.png"

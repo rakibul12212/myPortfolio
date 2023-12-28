@@ -32,7 +32,7 @@ const Navbar = () => {
   };
   return (
     <div className="bg">
-      <div className=" container border-2 border-red-500 mx-auto">
+      <div className=" container mx-auto">
         <header className="text-white  flex justify-between items-center  sticky top-0">
           <div className="flex items-center ">
             <h1 className="text-6xl font-extrabold font-semibold text-black bg-emerald-400 px-8 py-3">
@@ -113,7 +113,7 @@ const Navbar = () => {
               <p className="font-bold text-xl text-gray-800">ABOUT ME</p>
               <p className="text-large py-5 text-gray-300">
                 I’m a Frontend Web Developer(MERN).I complete my B. Sc degree
-                from Daffodil Internation University dept. CSE. I have been
+                from Daffodil International University dept. CSE. I have been
                 learning web development for a year & still learning. As aMERN
                 developer, I’m able to design & develop a full stack website.My
                 aim to be a senior Frontend Web Developer in the next 2 years &

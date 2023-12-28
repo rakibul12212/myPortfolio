@@ -3,16 +3,18 @@ import Banner from "../Banner/Banner";
 import RecentPortfolio from "../RecentPortfolio/RecentPortfolio";
 import About from "../About/About";
 import EducationAndSkill from "../EducationAndSkill/EducationAndSkill";
-import Blogs from "../Blogs/Blogs";
+import Contact from "../Contact/Contact";
+import Blog from "../Blog/Blog";
 
 const Home = () => {
   return (
     <div>
       <Banner></Banner>
-      <RecentPortfolio></RecentPortfolio>
       <About></About>
+      <Contact></Contact>
       <EducationAndSkill></EducationAndSkill>
-      <Blogs></Blogs>
+      <RecentPortfolio></RecentPortfolio>
+      <Blog></Blog>
     </div>
   );
 };

@@ -1,26 +1,11 @@
 import React from "react";
-import "./Blogs.css";
+import "./Contact.css";
 
-const Blogs = () => {
+const Contact = () => {
   return (
     <div className="bg-black text-white">
-      <div className="container mx-auto  py-10 border-2 border-red-500">
-        <div className=" grid sm:grid-rows-2 lg:grid-cols-2 md:grid-cols-2 xl:grid-cols-2  items-center">
-          <div>
-            <div className="py-5">
-              <p className="text-6xl font-bold">Design</p>
-              <p className="text-4xl font-bold">and</p>
-              <p className="text-5xl font-bold">Innovation</p>
-            </div>
-            <p className="w-2/3 text-gray-400">
-              I’m a Frontend Web Developer(MERN).I complete my B. Sc degree from
-              Daffodil Internation University dept. CSE. I have been learning
-              web development for a year & still learning. As aMERN developer,
-              I’m able to design & develop a full stack website.My aim to be a
-              senior Frontend Web Developer in the next 2 years & also try to
-              update myself with new technologies.
-            </p>
-          </div>
+      <div className="container mx-auto py-20">
+        <div className="grid grid-cols-1 xs:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-16 items-center">
           <div className="contact-form bg-gray-950 p-20">
             <p className="heading text-3xl pb-5">GET TOUCH ME?</p>
             <p className="pb-5 text-gray-400">
@@ -51,10 +36,25 @@ const Blogs = () => {
                   />
                 </div>
               </form>
-              <button className="p-3 px-16 bg-emerald-500  hover:bg-emerald-500 hover:text-white ">
+              <button className="p-3 px-16 bg-emerald-400  hover:bg-emerald-500 hover:text-white ">
                 Submit now
               </button>
             </div>
+          </div>
+          <div>
+            <div>
+              <p className="text-8xl font-bold">Design</p>
+              <p className="text-6xl font-bold">and</p>
+              <p className="text-5xl font-bold">Innovation</p>
+            </div>
+            <p className="w-96 text-xl text-gray-400 py-4">
+              I’m a Frontend Web Developer(MERN).I complete my B. Sc degree from
+              Daffodil International University dept. CSE. I have been learning
+              web development for a year & still learning. As aMERN developer,
+              I’m able to design & develop a full stack website.My aim to be a
+              senior Frontend Web Developer in the next 2 years & also try to
+              update myself with new technologies.
+            </p>
           </div>
         </div>
       </div>
@@ -62,4 +62,4 @@ const Blogs = () => {
   );
 };
 
-export default Blogs;
+export default Contact;

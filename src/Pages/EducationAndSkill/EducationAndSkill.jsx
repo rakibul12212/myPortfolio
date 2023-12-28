@@ -62,6 +62,41 @@ const EducationAndSkill = () => {
             </p>
           </div>
         </div>
+        {/* /////// */}
+        <div className="py-20">
+          <div className="skill grid grid-cols-2 gap-4">
+            <div className="pb-5">
+              <p className="bg-gray-900 p-3">HTML5</p>
+              <span className="bar">
+                <span className="html"></span>
+              </span>
+            </div>
+            <div className="pb-5">
+              <p className="bg-gray-900 p-3">CSS3</p>
+              <span className="bar">
+                <span className="css"></span>
+              </span>
+            </div>
+            <div className="pb-5">
+              <p className="bg-gray-900 p-3">JAVASCRIPT</p>
+              <span className="bar">
+                <span className="js"></span>
+              </span>
+            </div>
+            <div className="pb-5">
+              <p className="bg-gray-900 p-3">REACT</p>
+              <span className="bar">
+                <span className="react"></span>
+              </span>
+            </div>
+            <div className="pb-5">
+              <p className="bg-gray-900 p-3">GIT</p>
+              <span className="bar">
+                <span className="git"></span>
+              </span>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

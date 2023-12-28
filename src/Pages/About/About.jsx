@@ -5,9 +5,11 @@ const About = () => {
     <div className="bg-black">
       <div className="container mx-auto space-x-10 border-2 border-red-500 py-10 lg:py-20 flex flex-col lg:flex-row justify-between items-center">
         <div className="text-white lg:w-1/2">
-          <p className="text-emerald-400 text-xl font-bold pb-5">ABOUT ME</p>
-          <p className="text-3xl font-bold pb-2">Transforming visions into</p>
-          <p className="text-3xl font-bold">exceptional portfolios</p>
+          <p className="xl:text-3xl text-emerald-400 text-xl font-bold pb-5">
+            ABOUT ME
+          </p>
+          <p className="text-4xl font-bold pb-2">Transforming visions into</p>
+          <p className="text-4xl font-bold">exceptional portfolios.</p>
           <p className="text-slate-300 py-5 lg:py-10">
             I’m a Frontend Web Developer (MERN). I completed my B. Sc degree
             from Daffodil International University dept. CSE. I have been

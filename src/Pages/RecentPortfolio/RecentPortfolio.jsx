@@ -5,12 +5,12 @@ const RecentPortfolio = () => {
     <div className="bg-black">
       <div className="container mx-auto border-2 border-red-500 py-20">
         <div className="text-white ">
-          <p className="text-emerald-400 text-xl font-bold pb-5">
+          <p className=" xl:text-3xl text-emerald-400 text-xl font-bold pb-5">
             MY RECENT PORTFOLIO
           </p>
-          <p className="text-3xl font-bold pb-2">Elevate your brand to new</p>
-          <p className="text-3xl font-bold">
-            heights with our portfolio expertise
+          <p className="text-4xl font-bold pb-2">Elevate your brand to new</p>
+          <p className="text-4xl font-bold">
+            heights with our portfolio expertise.
           </p>
         </div>
         <div className="flex justify-between space-x-2 rounded-2xl py-20">

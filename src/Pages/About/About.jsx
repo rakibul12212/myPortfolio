@@ -1,6 +1,19 @@
 import React from "react";
 
 const About = () => {
+  const DownloadCV = () => {
+    const cvUrl = "/cv.pdf";
+    const link = document.createElement("a");
+    link.href = cvUrl;
+    link.download = "md-rakibul-islam-cv.pdf";
+
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
   return (
     <div className="bg-black">
       <div className="container mx-auto space-x-10 py-10 lg:py-20 flex flex-col lg:flex-row justify-between items-center">
@@ -20,6 +33,7 @@ const About = () => {
           </p>
           <button
             id="btn"
+            onClick={DownloadCV}
             className="bg-emerald-400 hover:bg-emerald-500 px-5 py-4 "
           >
             <a href="#" className="flex justify-between">

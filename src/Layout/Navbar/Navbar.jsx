@@ -8,7 +8,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="bg-gray-950 sticky top-0">
+    <div className="bg-black sticky top-0">
       <div className="container mx-auto">
         <nav>
           <div className="text-black flex flex-col-2 lg:flex-row justify-between items-center sticky top-0 ">

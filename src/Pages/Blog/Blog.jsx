@@ -37,7 +37,7 @@ const Blog = () => {
               </p>
               {/* <!-- button --> */}
               <span className="background">
-                <button className="p-3 px-8 bg-emerald-400  hover:bg-emerald-500 hover:text-white ">
+                <button className="p-2 px-4 md:p-3 md:px-8 bg-emerald-400 hover:bg-emerald-500 hover:text-white">
                   Submit now
                 </button>
               </span>

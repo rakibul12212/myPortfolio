@@ -41,7 +41,7 @@ const Banner = () => {
               CREATIVE
             </h1>
             <h2
-              className=" font-bold text-2xl sm:text-3xl items-center tracking-wide text-white "
+              className="title font-bold text-2xl sm:text-3xl items-center tracking-wide text-white "
               data-text="FRONT END DEVELOPER"
             >
               FRONT END DEVELOPER

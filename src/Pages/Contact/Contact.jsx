@@ -36,7 +36,7 @@ const Contact = () => {
                   />
                 </div>
               </form>
-              <button className="p-3 px-16 bg-emerald-400  hover:bg-emerald-500 hover:text-white ">
+              <button className="p-3 px-5 bg-emerald-400  hover:bg-emerald-500 hover:text-white ">
                 Submit now
               </button>
             </div>

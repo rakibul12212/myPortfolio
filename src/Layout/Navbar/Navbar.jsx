@@ -20,7 +20,9 @@ const Navbar = () => {
                     R
                   </h1>
                 </a>
-                <h1 className="text-white text-3xl ps-4 ">Rakib</h1>
+                <a href="/">
+                  <h1 className="text-white text-3xl ps-4 ">Rakib</h1>
+                </a>
               </div>
               {/* Mobile Menu Toggle Button */}
               <div className="md:hidden flex ps-40 items-center">

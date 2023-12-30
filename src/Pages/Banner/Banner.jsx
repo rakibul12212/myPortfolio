@@ -23,6 +23,7 @@ const Banner = () => {
               src="https://wp.shsarker.xyz/zyan/wp-content/themes/zyan/assets/img/shapes/banner_shape.png"
               alt=""
               className="max-w-full h-auto"
+              id="shape"
             />
             <img
               src="https://i.ibb.co/R3qZDy9/portfolio-img.png"
@@ -39,9 +40,12 @@ const Banner = () => {
             <h1 className="font-bold text-3xl sm:text-5xl items-center tracking-wide text-white pb-4">
               CREATIVE
             </h1>
-            <h1 className="font-bold text-2xl sm:text-3xl items-center tracking-wide text-white ">
+            <h2
+              className=" font-bold text-2xl sm:text-3xl items-center tracking-wide text-white "
+              data-text="FRONT END DEVELOPER"
+            >
               FRONT END DEVELOPER
-            </h1>
+            </h2>
           </div>
           <div id="about-myself">
             <p className="text-slate-300 py-10 w-full">

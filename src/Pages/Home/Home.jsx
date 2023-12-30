@@ -5,6 +5,7 @@ import About from "../About/About";
 import EducationAndSkill from "../EducationAndSkill/EducationAndSkill";
 import Contact from "../Contact/Contact";
 import Blog from "../Blog/Blog";
+import "./Home.css";
 
 const Home = () => {
   return (

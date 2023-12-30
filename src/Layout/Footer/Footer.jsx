@@ -20,7 +20,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="flex justify-between sm:justify-center space-x-4 items-center mb-6 md:mb-0">
+          <div className="flex justify-between sm:justify-center space-x-2 items-center mb-6 md:mb-0">
             <div className="bg-emerald-400 p-5 rounded-full">
               <img
                 src="https://wp.shsarker.xyz/zyan/wp-content/themes/zyan/assets/svg/phone.svg"

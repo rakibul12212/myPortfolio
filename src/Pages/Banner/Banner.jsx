@@ -1,11 +1,12 @@
 import React from "react";
 import "./Banner.css";
+
 const Banner = () => {
   const DownloadCV = () => {
-    const cvUrl = "/cv.pdf";
+    const cvUrl = "/public/md-rakibul-islam-Resume.pdf";
     const link = document.createElement("a");
     link.href = cvUrl;
-    link.download = "md-rakibul-islam-cv.pdf";
+    link.download = "md-rakibul-islam-Resume.pdf";
 
     link.target = "_blank";
     link.rel = "noopener noreferrer";
@@ -46,6 +47,31 @@ const Banner = () => {
             >
               FRONT END DEVELOPER
             </h2>
+            <div className="space-x-5 flex py-2">
+              <a href="https://www.facebook.com/rakib698/">
+                <img
+                  src="https://dwglogo.com/wp-content/uploads/2016/06/facebook_emblem.png"
+                  alt=""
+                  className="w-10 h-10"
+                />
+              </a>
+              <a href="https://www.linkedin.com/in/rakibul-islam-36582620b/">
+                {" "}
+                <img
+                  src="https://pngimg.com/d/linkedIn_PNG17.png"
+                  alt=""
+                  className="w-10 h-10"
+                />
+              </a>
+              <a href="https://github.com/rakibul12212">
+                {" "}
+                <img
+                  src="https://assets-global.website-files.com/61d1b6e84887f53fef1dcdf2/631b45e07d98cfb364e5951f_github-white.png"
+                  alt=""
+                  className="w-10 h-10"
+                />
+              </a>
+            </div>
           </div>
           <div id="about-myself">
             <p className="text-slate-300 py-10 w-full">

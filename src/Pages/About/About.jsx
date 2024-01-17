@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   const DownloadCV = () => {
-    const cvUrl = "/public/md-rakibul-islam-Resume.pdf";
+    const cvUrl = "/md-rakibul-islam-Resume.pdf";
     const link = document.createElement("a");
     link.href = cvUrl;
     link.download = "md-rakibul-islam-resume.pdf";

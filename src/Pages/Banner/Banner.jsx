@@ -3,7 +3,7 @@ import "./Banner.css";
 
 const Banner = () => {
   const DownloadCV = () => {
-    const cvUrl = "/public/md-rakibul-islam-Resume.pdf";
+    const cvUrl = "/md-rakibul-islam-Resume.pdf";
     const link = document.createElement("a");
     link.href = cvUrl;
     link.download = "md-rakibul-islam-Resume.pdf";
@@ -23,7 +23,7 @@ const Banner = () => {
             <img
               src="https://wp.shsarker.xyz/zyan/wp-content/themes/zyan/assets/img/shapes/banner_shape.png"
               alt=""
-              className="max-w-full h-auto"
+              className="max-w-full h-auto  "
               id="shape"
             />
             <img

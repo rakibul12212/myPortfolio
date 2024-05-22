@@ -55,11 +55,11 @@ const About = () => {
             </a>
           </button>
         </div>
-        <div id="about-img" className="bg-emerald-400 relative lg:w-1/2">
+        <div id="about-img" className="bg-emerald-400 rounded-2xl relative lg:w-1/2">
           <img
             src="https://i.ibb.co/C0whtzK/photo-2023-12-28-06-35-45-removebg-preview-1-1.png"
             alt=""
-            className="w-full lg:mt-2 lg:mr-2 relative lg:top-6 lg:right-6"
+            className="w-full lg:mt-2 lg:mr-2 relative lg:top-6 lg:right-6 rounded-2xl"
           />
         </div>
       </div>

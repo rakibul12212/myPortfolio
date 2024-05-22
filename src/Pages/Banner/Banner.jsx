@@ -2,19 +2,19 @@ import React from "react";
 import "./Banner.css";
 
 const Banner = () => {
-  const DownloadCV = () => {
-    const cvUrl = "/md-rakibul-islam-Resume.pdf";
-    const link = document.createElement("a");
-    link.href = cvUrl;
-    link.download = "md-rakibul-islam-Resume.pdf";
+  // const DownloadCV = () => {
+  //   const cvUrl = "/md-rakibul-islam-Resume.pdf";
+  //   const link = document.createElement("a");
+  //   link.href = cvUrl;
+  //   link.download = "md-rakibul-islam-Resume.pdf";
 
-    link.target = "_blank";
-    link.rel = "noopener noreferrer";
+  //   link.target = "_blank";
+  //   link.rel = "noopener noreferrer";
 
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  };
+  //   document.body.appendChild(link);
+  //   link.click();
+  //   document.body.removeChild(link);
+  // };
   return (
     <div className="bg px-10">
       <div className="container xl:ps-20 xl:pb-20 mx-auto flex flex-col-reverse sm:flex-row xl:space-x-40 lg:space-x-40 pt-10 sm:pt-100">
@@ -74,7 +74,7 @@ const Banner = () => {
             </div>
           </div>
           <div id="about-myself">
-            <p className="text-slate-300 py-10 w-full">
+            <p className="text-slate-300 py-5 w-full">
               I&apos;m a passionate Front End Developer with a mission to create
               delightful and intuitive digital experiences. With a strong
               foundation in developing principles and a keen eye for detail, I
@@ -85,25 +85,11 @@ const Banner = () => {
 
           <button
             id="btn"
-            className="bg-emerald-400 hover:bg-emerald-500 hover:bg-emerald-500 px-5 py-4 "
-            onClick={DownloadCV}
+            className=" "  
           >
             <a href="#" className="flex justify-between">
-              <span>Download CV</span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                className="w-6 h-6"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3"
-                />
-              </svg>
+              <span className="text-emerald-400 hover:text-white border border-emerald-400 hover:bg-emerald-500 hover:bg-emerald-500 px-5 py-4">Get In Touch</span>
+              
             </a>
           </button>
         </div>

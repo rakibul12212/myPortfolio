@@ -3,7 +3,7 @@ import "./Contact.css";
 
 const Contact = () => {
   return (
-    <div className="bg-black text-white">
+    <div className="bg-black text-white px-10">
       <div className="container mx-auto py-20">
         <div className="grid grid-cols-1 xs:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-16 items-center">
           <div className="contact-form bg-gray-950 p-20">

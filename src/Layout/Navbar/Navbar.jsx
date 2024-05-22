@@ -8,7 +8,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="bg-black sticky top-0">
+    <div className="bg-black sticky top-0 px-10">
       <div className="container mx-auto">
         <nav>
           <div className="text-black flex flex-col-2 lg:flex-row justify-between items-center sticky top-0 ">
@@ -16,7 +16,7 @@ const Navbar = () => {
               {/* Logo */}
               <div className="flex items-center">
                 <a href="/">
-                  <h1 className="text-6xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl font-extrabold font-semibold text-black bg-emerald-400 px-5 py-3">
+                  <h1 className="text-3xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl  font-extrabold font-semibold text-black bg-emerald-400 px-5 py-3">
                     R
                   </h1>
                 </a>

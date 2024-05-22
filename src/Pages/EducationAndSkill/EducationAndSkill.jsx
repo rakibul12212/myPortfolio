@@ -3,7 +3,7 @@ import "./EducationAndSkill.css";
 
 const EducationAndSkill = () => {
   return (
-    <div className="bg-black text-white">
+    <div className="bg-black text-white px-10">
       <div className="container mx-auto py-10">
         <div className="text-white text-center">
           <p className="xl:text-3xl text-emerald-400 text-xl font-bold pb-5">

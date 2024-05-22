@@ -2,7 +2,7 @@ import React from "react";
 import "./RecentPortfolio.css";
 const RecentPortfolio = () => {
   return (
-    <div className="bg-black">
+    <div className="bg-black px-10">
       <div className="container mx-auto py-20">
         <div className="text-white ">
           <p className=" xl:text-3xl text-emerald-400 text-xl font-bold pb-5">

@@ -15,7 +15,7 @@ const About = () => {
     document.body.removeChild(link);
   };
   return (
-    <div className="bg-black">
+    <div className="bg-black px-10">
       <div className="container mx-auto space-x-10 py-10 lg:py-20 flex flex-col lg:flex-row justify-between items-center">
         <div className="text-white lg:w-1/2">
           <p className="xl:text-3xl text-emerald-400 text-xl font-bold pb-5">

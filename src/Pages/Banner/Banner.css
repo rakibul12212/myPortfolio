@@ -1,7 +1,10 @@
-.bg {
+/* .bg {
   background: url("https://wp.shsarker.xyz/zyan/wp-content/uploads/2023/10/banner-scaled.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+} */
+.bg{
+  background-color: black;
 }
 @media only screen and (max-width: 767px) {
   .container {

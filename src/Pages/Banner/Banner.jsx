@@ -2,19 +2,7 @@ import React from "react";
 import "./Banner.css";
 
 const Banner = () => {
-  // const DownloadCV = () => {
-  //   const cvUrl = "/md-rakibul-islam-Resume.pdf";
-  //   const link = document.createElement("a");
-  //   link.href = cvUrl;
-  //   link.download = "md-rakibul-islam-Resume.pdf";
-
-  //   link.target = "_blank";
-  //   link.rel = "noopener noreferrer";
-
-  //   document.body.appendChild(link);
-  //   link.click();
-  //   document.body.removeChild(link);
-  // };
+ 
   return (
     <div className="bg px-10">
       <div className="container xl:ps-20 xl:pb-20 mx-auto flex flex-col-reverse sm:flex-row xl:space-x-40 lg:space-x-40 pt-10 sm:pt-100">
@@ -50,7 +38,7 @@ const Banner = () => {
             <div className="space-x-5 flex py-2">
               <a href="https://www.facebook.com/rakib698/">
                 <img
-                  src="https://dwglogo.com/wp-content/uploads/2016/06/facebook_emblem.png"
+                  src="https://img.icons8.com/color/48/facebook-new.png"
                   alt=""
                   className="w-10 h-10"
                 />
@@ -58,7 +46,7 @@ const Banner = () => {
               <a href="https://www.linkedin.com/in/rakibul-islam-36582620b/">
                 {" "}
                 <img
-                  src="https://pngimg.com/d/linkedIn_PNG17.png"
+                  src="https://img.icons8.com/color/48/linkedin.png"
                   alt=""
                   className="w-10 h-10"
                 />
@@ -66,7 +54,7 @@ const Banner = () => {
               <a href="https://github.com/rakibul12212">
                 {" "}
                 <img
-                  src="https://assets-global.website-files.com/61d1b6e84887f53fef1dcdf2/631b45e07d98cfb364e5951f_github-white.png"
+                  src="https://img.icons8.com/ios-filled/100/github.png"
                   alt=""
                   className="w-10 h-10"
                 />

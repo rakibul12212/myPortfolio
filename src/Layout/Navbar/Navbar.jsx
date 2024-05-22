@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -11,17 +11,12 @@ const Navbar = () => {
     <div className="bg-black sticky top-0 px-10">
       <div className="container mx-auto">
         <nav>
-          <div className="text-black flex flex-col-2 lg:flex-row justify-between items-center sticky top-0 ">
+          <div className="text-black flex flex-col-2 lg:flex-row justify-between items-center sticky top-0  ">
             <div className="flex justify-between ">
               {/* Logo */}
-              <div className="flex items-center">
+              <div className="py-2">
                 <a href="/">
-                  <h1 className="text-3xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl  font-extrabold font-semibold text-black bg-emerald-400 px-5 py-3">
-                    R
-                  </h1>
-                </a>
-                <a href="/">
-                  <h1 className="text-white text-3xl ps-4 ">Rakib</h1>
+                  <h1 className=" font-semibold text-emerald-400 text-3xl px-4 py-2 border-2 border-emerald-400 rounded-full  ">R</h1>
                 </a>
               </div>
               {/* Mobile Menu Toggle Button */}
@@ -64,13 +59,13 @@ const Navbar = () => {
                 ABOUT
               </a>
               <a
-                href="#"
+                 href="#"
                 className="p-2 text-gray-500 text-large font-semibold hover:text-green-400 "
               >
                 PROJECTS
               </a>
               <a
-                href="#"
+                 href="#"
                 className="p-2 text-gray-500 text-large font-semibold hover:text-green-400 "
               >
                 BLOGS

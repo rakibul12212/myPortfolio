@@ -24,12 +24,7 @@ const About = () => {
           <p className="text-4xl font-bold pb-2">Transforming visions into</p>
           <p className="text-4xl font-bold">exceptional portfolios.</p>
           <p className="text-slate-300 py-5 lg:py-10">
-            I’m a Frontend Web Developer (MERN). I completed my B. Sc degree
-            from Daffodil International University dept. CSE. I have been
-            learning web development for a year & still learning. As a MERN
-            developer, I’m able to design & develop a full-stack website. My aim
-            is to be a senior Frontend Web Developer in the next 2 years & also
-            try to update myself with new technologies.
+          I enjoy being up to date on the latest technological trends. Recently I completed web development course from Programming Hero. Now I’m focusing on learning the newest technologies like TypeScript , Redux , Next Js. I`m putting a lot of effort into learning these new technologies since I really think that one should never stop growing. My goal is to stay ahead of the game and help shape the future of technology.
           </p>
           <button
             id="btn"

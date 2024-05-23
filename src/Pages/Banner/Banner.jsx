@@ -17,7 +17,7 @@ const Banner = () => {
             <img
               src="https://i.ibb.co/R3qZDy9/portfolio-img.png"
               alt=""
-              className="absolute border-b-1 border-green-400 max-w-full xl:w-70% xl:h-2/3  h-64 xl:h-70% top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+              className="absolute  max-w-full xl:w-70% xl:h-2/3  h-64 xl:h-70% top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
             />
           </div>
         </div>

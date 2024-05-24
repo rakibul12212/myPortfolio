@@ -52,7 +52,8 @@ export default function App() {
         </NavbarItem>
       </NavbarContent>
       
-      <NavbarMenu className="bg-gray-700">
+      <NavbarMenu className="bg-black
+      ">
         {menuItems.map((item, index) => (
           <NavbarMenuItem key={`${item}-${index}`}>
             <Link

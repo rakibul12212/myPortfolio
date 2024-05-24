@@ -7,7 +7,7 @@ const Banner = () => {
     <div className="bg px-10">
       <div className="container xl:ps-20 xl:pb-20 mx-auto flex flex-col-reverse sm:flex-row xl:space-x-40 lg:space-x-40 pt-10 sm:pt-100">
         <div id="right-container" className="md:my-auto sm:w-1/3 ">
-          <div className="relative flex justify-center items-center">
+          <div className="relative flex justify-center items-center ">
             <img
               src="https://i.ibb.co/VWQw84Q/banner-shape.png"
               alt=""

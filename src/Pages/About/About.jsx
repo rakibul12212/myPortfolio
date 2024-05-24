@@ -2,10 +2,10 @@ import React from "react";
 
 const About = () => {
   const DownloadCV = () => {
-    const cvUrl = "/md-rakibul-islam-Resume.pdf";
+    const cvUrl = "/rakibResume.pdf";
     const link = document.createElement("a");
     link.href = cvUrl;
-    link.download = "md-rakibul-islam-resume.pdf";
+    link.download = "rakibResume.pdf";
 
     link.target = "_blank";
     link.rel = "noopener noreferrer";

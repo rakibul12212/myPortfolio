@@ -21,7 +21,7 @@ const RecentPortfolio = () => {
             />
             <div className="card-text">
               <p className="pb-2 md:pb-5 font-bold">Shopcart</p>
-              <a href="https://exquisite-basbousa-e447ab.netlify.app/">
+              <a href="https://shopcart-red.vercel.app/">
                 <button className="border-2 border-green-400 hover:bg-emerald-400 p-2 w-full md:w-36">
                   Live Site
                 </button>
@@ -42,7 +42,7 @@ const RecentPortfolio = () => {
             />
             <div className="card-text">
               <p className="pb-2 md:pb-5 font-bold">PlayStorm</p>
-              <a href="https://playful-muffin-25454c.netlify.app/">
+              <a href="https://playstorm.vercel.app/">
                 <button className="border-2 border-emerald-400 hover:bg-emerald-400 p-2 w-full md:w-36">
                   Live Site
                 </button>
@@ -58,18 +58,18 @@ const RecentPortfolio = () => {
 
           <div className="card">
             <img
-              src="https://i.ibb.co/KDHNMJK/Screenshot-10.png"
+              src="https://i.ibb.co/q0HYgZ9/planoroma.png"
               alt="Card Image"
             />
             <div className="card-text">
-              <p className="pb-2 md:pb-5 font-bold">Toy Land</p>
-              <a href="https://toy-shop-827ff.web.app">
+              <p className="pb-2 md:pb-5 font-bold">Planoroma</p>
+              <a href="https://planoroma-client.vercel.app/">
                 <button className="border-2 border-emerald-400 hover:bg-emerald-400 p-2 w-full md:w-36">
                   Live Site
                 </button>
               </a>
               <br />
-              <a href="https://github.com/rakibul12212/toy-Land-client">
+              <a href="https://github.com/rakibul12212/planoroma-client">
                 <button className="border-2 border-emerald-400 hover:bg-emerald-400 p-2 w-full md:w-36 mt-2 md:mt-0">
                   Details
                 </button>

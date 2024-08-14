@@ -4,7 +4,7 @@ import "./Banner.css";
 const Banner = () => {
  
   return (
-    <div className="bg px-10">
+    <div className="bg px-10" id="font">
       <div className="container xl:ps-20 xl:pb-20 mx-auto flex flex-col-reverse sm:flex-row xl:space-x-40 lg:space-x-40 pt-10 sm:pt-100">
         <div id="right-container" className="md:my-auto sm:w-1/3 ">
           <div className="relative flex justify-center items-center ">
@@ -71,13 +71,11 @@ const Banner = () => {
             </p>
           </div>
 
-          <button
-            id="btn"
-            className=" "  
-          >
+          <button id="btn" className=" ">
             <a href="#" className="flex justify-between">
-              <span className="text-emerald-400 hover:text-white border border-emerald-400 hover:bg-emerald-500 hover:bg-emerald-500 px-5 py-4">Get In Touch</span>
-              
+              <span className="text-emerald-400 hover:text-white border border-emerald-400 hover:bg-emerald-500 hover:bg-emerald-500 px-5 py-4">
+                Get In Touch
+              </span>
             </a>
           </button>
         </div>

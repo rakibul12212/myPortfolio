@@ -2,7 +2,7 @@ import React from "react";
 import "./Blog.css";
 const Blog = () => {
   return (
-    <div className="bg-black px-10">
+    <div className="bg-black px-10" id="font">
       <div className="container mx-auto py-20">
         <div className="flex justify-between items-center">
           <div className="text-white pb-20">

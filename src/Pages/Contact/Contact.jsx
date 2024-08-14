@@ -3,7 +3,7 @@ import "./Contact.css";
 
 const Contact = () => {
   return (
-    <div className="bg-black text-white px-10">
+    <div className="bg-black text-white px-10" id="font">
       <div className="container mx-auto py-20">
         <div className="grid grid-cols-1 xs:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-16 items-center">
           <div className="contact-form bg-gray-950 p-5">
@@ -48,7 +48,12 @@ const Contact = () => {
               <p className="text-5xl font-bold">Innovation</p>
             </div>
             <p className="w-full text-xl text-gray-400 py-4">
-            "My goal is to craft captivating frontend designs that not only captivate users but also provide seamless navigation and intuitive interaction. I aim to blend creativity with functionality, ensuring every user enjoys a delightful experience while prioritizing accessibility and compatibility across different platforms."
+              "My goal is to craft captivating frontend designs that not only
+              captivate users but also provide seamless navigation and intuitive
+              interaction. I aim to blend creativity with functionality,
+              ensuring every user enjoys a delightful experience while
+              prioritizing accessibility and compatibility across different
+              platforms."
             </p>
           </div>
         </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import './Navbar.css'
+import "./Navbar.css";
 
 import {
   Navbar,
@@ -18,14 +18,16 @@ export default function App() {
   const menuItems = ["Home", "About", "Projects", "Blogs", "Contact"];
 
   return (
-    <Navbar onMenuOpenChange={setIsMenuOpen} className="bg-gray-900" id="font">
+    <Navbar onMenuOpenChange={setIsMenuOpen} className="bg-gray-900 " id="font">
       <NavbarContent className="flex items-center justify-between py-2">
         <NavbarBrand>
-          <div className="hexagon-container" id="font">
-            <div className="hexagon flex justify-center items-center text-2xl font-bold bg-emerald-400">
-              <p>R</p>
+          <a href="#">
+            <div className="hexagon-container">
+              <div className="hexagon flex justify-center items-center text-2xl font-bold bg-emerald-400 border-4 border-emerald-600 ">
+                <p>R</p>
+              </div>
             </div>
-          </div>
+          </a>
         </NavbarBrand>
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
@@ -33,10 +35,10 @@ export default function App() {
         />
       </NavbarContent>
 
-      <NavbarContent className="hidden sm:flex gap-4" justify="end">
+      <NavbarContent className="hidden sm:flex gap-x-16" justify="end">
         <NavbarItem>
           <Link
-            className="text-gray-400 font-medium hover:text-emerald-400"
+            className="text-gray-400 font-medium hover:text-emerald-400 hover:border-b-2 hover:pb-2 hover:border-emerald-400"
             href="#"
           >
             Projects
@@ -45,14 +47,14 @@ export default function App() {
         <NavbarItem isActive>
           <Link
             href="#"
-            className="text-gray-400 font-medium hover:text-emerald-400"
+            className="text-gray-400 font-medium hover:text-emerald-400 hover:border-b-2 hover:pb-2 hover:border-emerald-400"
           >
             Blogs
           </Link>
         </NavbarItem>
         <NavbarItem>
           <Link
-            className="text-gray-400 font-medium hover:text-emerald-400"
+            className="text-gray-400 font-medium hover:text-emerald-400 hover:border-b-2 hover:pb-2 hover:border-emerald-400"
             href="#"
           >
             About
@@ -60,7 +62,7 @@ export default function App() {
         </NavbarItem>
         <NavbarItem>
           <Link
-            className="text-gray-400 font-medium hover:text-emerald-400"
+            className="text-gray-400 font-medium hover:text-emerald-400 hover:border-b-2 hover:pb-2 hover:border-emerald-400"
             href="#"
           >
             Contact
@@ -78,7 +80,7 @@ export default function App() {
               // color={
               //   index === 2 ? "black" : index === menuItems.length -1 ? "red" : "green"
               // }
-              className="w-full hover:text-emerald-700 text-emerald-500 font-medium"
+              className="w-full hover:text-emerald-700 text-emerald-500 font-medium "
               href="#"
               size="lg"
             >

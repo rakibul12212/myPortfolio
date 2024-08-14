@@ -15,8 +15,7 @@ const Blog = () => {
             <p className="text-4xl font-bold ">personal brand</p>
           </div>
           <div>
-            {" "}
-            <button className=" p-3 px-8 bg-emerald-400  hover:bg-emerald-500 hover:text-white text-xl">
+            <button className="hidden sm:inline-block p-2 px-4 sm:p-3 sm:px-6 md:p-3 md:px-8 lg:text-xl text-lg bg-emerald-400 hover:bg-emerald-500 hover:text-white">
               More Blog +
             </button>
           </div>

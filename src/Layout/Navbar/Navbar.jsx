@@ -31,7 +31,7 @@ export default function App() {
         </NavbarBrand>
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-          className="sm:hidden bg-emerald-400 px-5   "
+          className="sm:hidden px-5 text-white font-bold"
         />
       </NavbarContent>
 

@@ -16,11 +16,11 @@ const Banner = () => {
             <img
               src="https://i.ibb.co/R3qZDy9/portfolio-img.png"
               alt=""
-              className="absolute  max-w-full xl:w-70% xl:h-2/3  h-64 xl:h-70% top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+              className="absolute  max-w-full  xl:w-70% xl:h-2/3  h-64 xl:h-70% top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
             />
           </div>
         </div>
-        <div id="header-left" className="py-8 sm:py-20 sm:w-1/2">
+        <div id="header-left" className="py-4 sm:py-20 sm:w-1/2">
           <div id="heading">
             <h1 className="font-bold text-3xl sm:text-6xl items-center tracking-wide text-white pb-4 ">
               <span className="bg-gray-800">HI, I&apos;M RAKIB</span>
@@ -70,7 +70,7 @@ const Banner = () => {
             </p>
           </div>
 
-          <button id="btn" className=" ">
+          <button id="btn" className="pt-5">
             <a href="#" className="flex justify-between">
               <span className="text-emerald-400 hover:text-white border border-emerald-400 hover:bg-emerald-500 hover:bg-emerald-500 px-5 py-4">
                 Get In Touch

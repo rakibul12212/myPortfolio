@@ -13,7 +13,7 @@
     padding-right: 10px;
   }
 }
-#shape {
+/* #shape {
   animation: beat 5s linear infinite;
 }
 @keyframes beat {
@@ -29,7 +29,7 @@
     transform: scale(0.85);
     opacity: (0.5);
   }
-}
+} */
 
 /* title */
 .fancy-wipe {

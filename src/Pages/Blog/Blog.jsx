@@ -20,7 +20,7 @@ const Blog = () => {
             </button>
           </div>
         </div>
-        <div className="articles">
+        <div className="articles sm:px-0">
           <article>
             <figure>
               <img
@@ -36,7 +36,7 @@ const Blog = () => {
               </p>
               {/* <!-- button --> */}
               <span className="background">
-                <button className="p-2 px-4 md:p-3 md:px-8 bg-emerald-400 hover:bg-emerald-500 hover:text-white">
+                <button className="py-2 px-4 md:p-2 md:px-8 bg-emerald-400 hover:bg-emerald-500 hover:text-white">
                   Submit now
                 </button>
               </span>
@@ -57,7 +57,7 @@ const Blog = () => {
               </p>
               {/* <!-- button --> */}
               <span className="background">
-                <button className="p-3 px-8 bg-emerald-400  hover:bg-emerald-500 hover:text-white ">
+                <button className="py-2 px-4 md:p-2 md:px-8 bg-emerald-400 hover:bg-emerald-500 hover:text-white">
                   Submit now
                 </button>
               </span>
@@ -78,7 +78,7 @@ const Blog = () => {
               </p>
               {/* <!-- button --> */}
               <span className="background">
-                <button className=" p-3 px-8 bg-emerald-400  hover:bg-emerald-500 hover:text-white ">
+                <button className="py-2 px-4 md:p-2 md:px-8 bg-emerald-400 hover:bg-emerald-500 hover:text-white">
                   Submit now
                 </button>
               </span>

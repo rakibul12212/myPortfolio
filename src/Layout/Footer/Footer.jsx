@@ -6,7 +6,7 @@ const Footer = () => {
     <div className="bg-black px-10" id="font">
       <div className="container mx-auto pb-10">
         <div className="flex flex-col md:flex-row justify-between py-10 ">
-          <div className="flex justify-between sm:justify-center space-x-2 items-center mb-6 md:mb-0">
+          <div className="flex space-x-4  items-center mb-6 md:mb-0">
             <div className="bg-emerald-400 p-3 rounded-full">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -34,7 +34,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="flex justify-between sm:justify-center space-x-2 items-center mb-6 md:mb-0">
+          <div className="flex  space-x-4 items-center mb-6 md:mb-0">
             <div className="bg-emerald-400 p-3 rounded-full">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -57,7 +57,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="flex justify-between sm:justify-center space-x-2 items-center">
+          <div className="flex justify-between sm:justify-center space-x-4 items-center">
             <div className="bg-emerald-400 p-3 rounded-full">
               <svg
                 xmlns="http://www.w3.org/2000/svg"

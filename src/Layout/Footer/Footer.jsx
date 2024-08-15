@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className="bg-black px-10" id="font">
       <div className="container mx-auto pb-10">
-        <div className="flex flex-col md:flex-row justify-between py-10 ">
+        <div className="flex flex-col md:flex-row justify-around py-10 ">
           <div className="flex space-x-4  items-center mb-6 md:mb-0">
             <div className="bg-emerald-400 p-3 rounded-full">
               <svg
@@ -80,7 +80,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="flex flex-col md:flex-row justify-between">
+        <div className="flex flex-col md:flex-row justify-between pt-10">
           <div className="text-white mb-6 md:mb-0">
             <p>&copy;{currentYear} | All Rights Reserved</p>
           </div>

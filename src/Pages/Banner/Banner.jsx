@@ -2,7 +2,6 @@ import React from "react";
 import "./Banner.css";
 
 const Banner = () => {
- 
   return (
     <div className="bg px-10" id="font">
       <div className="container xl:ps-20 xl:pb-20 mx-auto flex flex-col-reverse sm:flex-row xl:space-x-40 lg:space-x-40 pt-10 sm:pt-100">
@@ -29,12 +28,12 @@ const Banner = () => {
             <h1 className="font-bold text-3xl sm:text-5xl items-center tracking-wide text-white pb-4">
               CREATIVE
             </h1>
-            <h2
-              className="title font-bold text-2xl sm:text-3xl items-center tracking-wide text-white "
-              data-text="FRONT END DEVELOPER"
-            >
-              FRONT END DEVELOPER
-            </h2>
+            <div>
+              <h1 className="fancy-wipe">
+                <span className="text">FRONT END DEVELOPER</span>
+                <span className="wipe-in">FRONT END DEVELOPER</span>
+              </h1>
+            </div>
             <div className="space-x-5 flex py-2">
               <a href="https://www.facebook.com/rakib698/">
                 <img

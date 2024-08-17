@@ -1,11 +1,21 @@
-import React from "react";
+import React, { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import "./EducationAndSkill.css";
 
+
 const EducationAndSkill = () => {
+  useEffect(() => {
+    Aos.init();
+  }, []);
   return (
     <div className="bg-black text-white px-10" id="font">
       <div className="container mx-auto py-10">
-        <div className="text-white text-center">
+        <div
+          data-aos="fade-up"
+          data-aos-duration="2000"
+          className="text-white text-center"
+        >
           <p className="xl:text-3xl text-emerald-400 text-xl font-bold pb-5">
             EDUCATION & SKILL
           </p>
@@ -67,37 +77,37 @@ const EducationAndSkill = () => {
 
         <div className="py-20">
           <div className="skill grid grid-cols-2 gap-4">
-            <div className="pb-5">
+            <div data-aos="fade-right" data-aos-duration="700" className="pb-5">
               <p className="bg-gray-900 p-3">HTML5</p>
               <span className="bar">
                 <span className="html"></span>
               </span>
             </div>
-            <div className="pb-5">
+            <div data-aos="fade-left" data-aos-duration="1000" className="pb-5">
               <p className="bg-gray-900 p-3">CSS3</p>
               <span className="bar">
                 <span className="css"></span>
               </span>
             </div>
-            <div className="pb-5">
+            <div data-aos="fade-right" data-aos-duration="800" className="pb-5">
               <p className="bg-gray-900 p-3">JAVASCRIPT</p>
               <span className="bar">
                 <span className="js"></span>
               </span>
             </div>
-            <div className="pb-5">
+            <div data-aos="fade-left" data-aos-duration="1100" className="pb-5">
               <p className="bg-gray-900 p-3">REACT</p>
               <span className="bar">
                 <span className="react"></span>
               </span>
             </div>
-            <div className="pb-5">
+            <div data-aos="fade-right" data-aos-duration="900" className="pb-5">
               <p className="bg-gray-900 p-3">TYPESCRIPT</p>
               <span className="bar">
                 <span className="typescript"></span>
               </span>
             </div>
-            <div className="pb-5">
+            <div data-aos="fade-left" data-aos-duration="1200" className="pb-5">
               <p className="bg-gray-900 p-3">GIT</p>
               <span className="bar">
                 <span className="git"></span>

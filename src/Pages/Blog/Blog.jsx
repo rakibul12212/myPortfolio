@@ -1,11 +1,20 @@
-import React from "react";
+import React, { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import "./Blog.css";
 const Blog = () => {
+  useEffect(() => {
+    Aos.init();
+  }, []);
   return (
     <div className="bg-black px-10" id="font">
       <div className="container mx-auto py-20">
         <div className="flex justify-between items-center">
-          <div className="text-white pb-20">
+          <div
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            className="text-white pb-20"
+          >
             <p className="xl:text-3xl text-emerald-400 text-xl font-bold pb-5">
               MY BLOG
             </p>
@@ -14,7 +23,7 @@ const Blog = () => {
             </p>
             <p className="text-4xl font-bold ">personal brand</p>
           </div>
-          <div>
+          <div data-aos="fade-left" data-aos-duration="1000">
             <button className="hidden sm:inline-block p-2 px-4 sm:p-3 sm:px-6 md:p-3 md:px-8 lg:text-xl text-lg bg-emerald-400 hover:bg-emerald-500 hover:text-white">
               More Blog +
             </button>

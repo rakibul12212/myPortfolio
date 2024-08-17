@@ -1,10 +1,20 @@
-import React from "react";
 import "./RecentPortfolio.css";
+import React, { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 const RecentPortfolio = () => {
+  useEffect(() => {
+    Aos.init();
+  }, []);
   return (
     <div className="bg-black px-10">
       <div className="container mx-auto py-20">
-        <div className="text-white ">
+        <div
+          data-aos="fade-right"
+          data-aos-duration="700"
+          className="text-white "
+        >
           <p className=" xl:text-3xl text-emerald-400 text-xl font-bold pb-5">
             MY RECENT PORTFOLIO
           </p>

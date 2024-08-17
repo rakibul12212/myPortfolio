@@ -1,7 +1,12 @@
-import React from "react";
 import "./Contact.css";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Contact = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <div className="bg-black text-white px-10" id="font">
       <div className="container mx-auto py-20">
@@ -14,21 +19,29 @@ const Contact = () => {
             </p>
             <div>
               <form id="contactForm">
-                <div className="py-2">
+                <div
+                  data-aos="fade-right"
+                  data-aos-duration="700"
+                  className="py-2"
+                >
                   <input
                     type="text"
                     placeholder="Name"
                     className="w-full h-5 p-5 bg-transparent border-2  border-emerald-500"
                   />
                 </div>
-                <div className="">
+                <div data-aos="fade-right" data-aos-duration="900" className="">
                   <input
                     type="email"
                     placeholder="email"
                     className="w-full h-5 p-5 bg-transparent border-2  border-emerald-500"
                   />
                 </div>
-                <div className="py-2">
+                <div
+                  data-aos="fade-right"
+                  data-aos-duration="1100"
+                  className="py-2"
+                >
                   <input
                     type="textarea"
                     placeholder="massage"
@@ -36,18 +49,26 @@ const Contact = () => {
                   />
                 </div>
               </form>
-              <button className="p-3 px-5 bg-emerald-400  hover:bg-emerald-500 hover:text-white ">
+              <button
+                data-aos="fade-right"
+                data-aos-duration="1300"
+                className="p-3 px-5 bg-emerald-400  hover:bg-emerald-500 hover:text-white "
+              >
                 Submit now
               </button>
             </div>
           </div>
           <div>
-            <div>
+            <div data-aos="fade-left" data-aos-duration="500">
               <p className="text-8xl font-bold">Design</p>
               <p className="text-6xl font-bold">and</p>
               <p className="text-5xl font-bold">Innovation</p>
             </div>
-            <p className="w-full text-xl text-gray-400 py-4">
+            <p
+              data-aos="fade-down"
+              data-aos-duration="4000"
+              className="w-full text-xl text-gray-400 py-4"
+            >
               "My goal is to craft captivating frontend designs that not only
               captivate users but also provide seamless navigation and intuitive
               interaction. I aim to blend creativity with functionality,

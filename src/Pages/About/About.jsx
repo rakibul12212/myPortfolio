@@ -1,4 +1,6 @@
-import React from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import React, { useEffect } from "react";
 
 const About = () => {
   const DownloadCV = () => {
@@ -14,16 +16,30 @@ const About = () => {
     link.click();
     document.body.removeChild(link);
   };
+
+  useEffect(() => {
+    Aos.init();
+  }, []);
   return (
     <div className="bg-black px-10" id="font">
       <div className="container mx-auto space-x-10 py-10 lg:py-20 flex flex-col lg:flex-row justify-between items-center">
         <div className="text-white lg:w-1/2">
-          <p className="xl:text-3xl text-emerald-400 text-xl font-bold pb-5">
+          <p
+            data-aos="fade-right"
+            data-aos-duration="500"
+            className="xl:text-3xl text-emerald-400 text-xl font-bold pb-5"
+          >
             ABOUT ME
           </p>
-          <p className="text-4xl font-bold pb-2">Transforming visions into</p>
-          <p className="text-4xl font-bold">exceptional portfolios.</p>
-          <p className="text-slate-300 py-5 lg:py-10">
+          <div data-aos="fade-down" data-aos-duration="4000">
+            <p className="text-4xl font-bold pb-2">Transforming visions into</p>
+            <p className="text-4xl font-bold">exceptional portfolios.</p>
+          </div>
+          <p
+            data-aos="fade-down"
+            data-aos-duration="4000"
+            className="text-slate-300 py-5 lg:py-10"
+          >
             I enjoy being up to date on the latest technological trends.
             Recently I completed web development course from Programming Hero.
             Now I’m focusing on learning the newest technologies like TypeScript
@@ -33,6 +49,8 @@ const About = () => {
             future of technology.
           </p>
           <button
+            data-aos="fade-down"
+            data-aos-duration="4000"
             id="btn"
             onClick={DownloadCV}
             className="bg-emerald-400 hover:bg-emerald-500 px-5 py-4 "

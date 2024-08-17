@@ -1,11 +1,20 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Banner.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Banner = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <div className="bg px-10" id="font">
       <div className="container xl:ps-20 xl:pb-20 mx-auto flex flex-col-reverse sm:flex-row xl:space-x-40 lg:space-x-40 pt-10 sm:pt-100">
-        <div id="right-container" className="md:my-auto sm:w-1/3 ">
+        <div
+          data-aos="fade-right"
+          id="right-container"
+          className="md:my-auto sm:w-1/3 "
+        >
           <div className="relative flex justify-center items-center ">
             <img
               src="https://i.ibb.co/VWQw84Q/banner-shape.png"
@@ -20,7 +29,11 @@ const Banner = () => {
             />
           </div>
         </div>
-        <div id="header-left" className="py-4 sm:py-20 sm:w-1/2">
+        <div
+          data-aos="fade-left"
+          id="header-left"
+          className="py-4 sm:py-20 sm:w-1/2"
+        >
           <div id="heading">
             <h1 className="font-bold text-3xl sm:text-6xl items-center tracking-wide text-white pb-4 ">
               <span className="bg-gray-800">HI, I&apos;M RAKIB</span>

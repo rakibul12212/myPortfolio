@@ -60,7 +60,7 @@ const Contact = () => {
           </div>
           <div>
             <div data-aos="fade-left" data-aos-duration="500">
-              <p className="text-8xl font-bold">Design</p>
+              <p className="sm:text-4xl md:text-8xl font-bold">Design</p>
               <p className="text-6xl font-bold">and</p>
               <p className="text-5xl font-bold">Innovation</p>
             </div>

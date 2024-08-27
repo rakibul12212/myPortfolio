@@ -21,7 +21,7 @@ const About = () => {
     Aos.init();
   }, []);
   return (
-    <div className="bg-black px-10" id="font">
+    <div className="bg-black sm:px-6 md:px-10" id="font">
       <div className="container mx-auto space-x-10 py-10 lg:py-20 flex flex-col lg:flex-row justify-between items-center">
         <div className="text-white lg:w-1/2">
           <p

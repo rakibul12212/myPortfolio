@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import  { useEffect } from "react";
 import "./Banner.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -8,7 +8,7 @@ const Banner = () => {
     AOS.init();
   }, []);
   return (
-    <div className="bg px-10" id="font">
+    <div className="bg sm:px-6 md:px-10" id="font">
       <div className="container xl:ps-20 xl:pb-20 mx-auto flex flex-col-reverse sm:flex-row xl:space-x-40 lg:space-x-40 pt-10 sm:pt-100">
         <div
           data-aos="fade-right"
@@ -36,7 +36,9 @@ const Banner = () => {
         >
           <div id="heading">
             <h1 className="font-bold text-3xl sm:text-6xl items-center tracking-wide text-white pb-4 ">
-              <span className="bg-gray-800">HI, I&apos;M RAKIB</span>
+              <span className="bg-gray-800 ">
+                HI, <span className="text-emerald-400 "> I&apos;M RAKIB</span>
+              </span>
             </h1>
             <h1 className="font-bold text-3xl sm:text-5xl items-center tracking-wide text-white pb-4">
               CREATIVE
@@ -85,7 +87,7 @@ const Banner = () => {
 
           <button id="btn" className="pt-5">
             <a href="#" className="flex justify-between">
-              <span className="text-emerald-400 hover:text-white border border-emerald-400 hover:bg-emerald-500 hover:bg-emerald-500 px-5 py-4">
+              <span className="text-emerald-400 hover:text-white border border-emerald-400 hover:bg-emerald-500  px-5 py-4">
                 Get In Touch
               </span>
             </a>

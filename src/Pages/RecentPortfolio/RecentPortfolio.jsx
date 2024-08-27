@@ -8,7 +8,7 @@ const RecentPortfolio = () => {
     Aos.init();
   }, []);
   return (
-    <div className="bg-black px-10">
+    <div className="bg-black sm:px-6 md:px-10">
       <div className="container mx-auto py-20">
         <div
           data-aos="fade-right"

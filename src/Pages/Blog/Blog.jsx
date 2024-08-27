@@ -7,7 +7,7 @@ const Blog = () => {
     Aos.init();
   }, []);
   return (
-    <div className="bg-black px-10" id="font">
+    <div className="bg-black sm:px-6 md:px-10" id="font">
       <div className="container mx-auto py-20">
         <div className="flex justify-between items-center">
           <div

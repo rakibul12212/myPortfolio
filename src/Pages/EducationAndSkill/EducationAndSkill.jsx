@@ -9,7 +9,7 @@ const EducationAndSkill = () => {
     Aos.init();
   }, []);
   return (
-    <div className="bg-black text-white px-10" id="font">
+    <div className="bg-black text-white sm:px-6 md:px-10" id="font">
       <div className="container mx-auto py-10">
         <div
           data-aos="fade-up"

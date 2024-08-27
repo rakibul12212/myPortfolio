@@ -8,7 +8,7 @@ const Contact = () => {
     AOS.init();
   }, []);
   return (
-    <div className="bg-black text-white px-10" id="font">
+    <div className="bg-black text-white sm:px-6 md:px-10" id="font">
       <div className="container mx-auto py-20">
         <div className="grid grid-cols-1 xs:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-16 items-center">
           <div className="contact-form bg-gray-950 p-5">
@@ -60,7 +60,7 @@ const Contact = () => {
           </div>
           <div>
             <div data-aos="fade-left" data-aos-duration="500">
-              <p className="sm:text-4xl md:text-8xl font-bold">Design</p>
+              <p className="text-8xl font-bold">Design</p>
               <p className="text-6xl font-bold">and</p>
               <p className="text-5xl font-bold">Innovation</p>
             </div>
@@ -69,12 +69,12 @@ const Contact = () => {
               data-aos-duration="4000"
               className="w-full text-xl text-gray-400 py-4"
             >
-              "My goal is to craft captivating frontend designs that not only
-              captivate users but also provide seamless navigation and intuitive
-              interaction. I aim to blend creativity with functionality,
-              ensuring every user enjoys a delightful experience while
-              prioritizing accessibility and compatibility across different
-              platforms."
+              &quot;My goal is to craft captivating frontend designs that not
+              only captivate users but also provide seamless navigation and
+              intuitive interaction. I aim to blend creativity with
+              functionality, ensuring every user enjoys a delightful experience
+              while prioritizing accessibility and compatibility across
+              different platforms&quot;
             </p>
           </div>
         </div>

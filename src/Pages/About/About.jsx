@@ -4,10 +4,10 @@ import React, { useEffect } from "react";
 
 const About = () => {
   const DownloadCV = () => {
-    const cvUrl = "/md-rakibul-islam-Resume.pdf";
+    const cvUrl = "/Md-rakibul-islam-resume.pdf";
     const link = document.createElement("a");
     link.href = cvUrl;
-    link.download = "md-rakibul-islam-Resume.pdf";
+    link.download = "Md-rakibul-islam-resume.pdf";
 
     link.target = "_blank";
     link.rel = "noopener noreferrer";
